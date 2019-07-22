@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tv_hallo_name"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimaryDark"/>
+
+    <TextView
+            android:id="@+id/tv_hallo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hallo"
+            android:textSize="@dimen/_20sdp"
+            android:layout_centerInParent="true"/>
+
+    <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_hallo_name"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/logout"
+            android:textAllCaps="false"/>
+
+</RelativeLayout>

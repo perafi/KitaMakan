@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base String -->
+    <string name="app_name">KitaMakan</string>
+
+    <!-- Bottom Navigation String -->
+    <string name="home">Home</string>
+    <string name="order">Order</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+
+    <!-- Authentication String -->
+    <string name="register">Register</string>
+    <string name="register_title">register</string>
+    <string name="name_hint">Name</string>
+    <string name="address_hint">Address</string>
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+    <string name="username_or_email_hint">Email / Username</string>
+    <string name="phonenumber_hint">Phonenumber</string>
+    <string name="password_hint">Password</string>
+    <string name="password_confirmation_hint">Password Confirmation</string>
+    <string name="or">or</string>
+    <string name="go_to_register">Go to Register</string>
+    <string name="go_to_login">Go to Login</string>
+    <string name="login">Login</string>
+    <string name="login_title">login</string>
+    <string name="logout">Logout</string>
+
+    <!-- Dummy Text -->
+    <string name="notification_page">Ini adalah halaman notification</string>
+    <string name="order_history_page">Ini adalah halaman order history</string>
+    <string name="order_process_page">Ini adalah halaman order process</string>
+
+    <!-- Content -->
+    <string name="hallo">Hallo</string>
+    <string name="login_failed">Login Gagal</string>
+
+</resources>

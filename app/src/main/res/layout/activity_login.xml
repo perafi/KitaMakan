@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/viewgroup_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="Autofill">
+
+    <LinearLayout
+            android:id="@+id/viewgroup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:orientation="vertical">
+
+        <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textAllCaps="false"/>
+
+        <LinearLayout
+                android:id="@+id/viewgroup_or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+            <View
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/colorPrimary"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:text="@string/or"/>
+
+            <View
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/btn_to_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/go_to_register"
+                android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/linear_mid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"/>
+
+    <LinearLayout
+            android:id="@+id/viewgroup_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linear_mid"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/et_key_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/username_or_email_hint"/>
+
+        <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:inputType="textPassword"
+                android:hint="@string/password_hint"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"/>
+
+    <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_logo"
+            android:text="@string/login_title"
+            android:textSize="@dimen/_14sdp"/>
+
+
+</RelativeLayout>
